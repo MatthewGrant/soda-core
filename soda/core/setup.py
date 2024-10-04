@@ -17,7 +17,7 @@ requires = [
     "opentelemetry-api>=1.16.0,<1.23.0",  # 1.23.0 removes Python 3.7 support
     "opentelemetry-exporter-otlp-proto-http>=1.16.0,<1.23.0",
     "sqlparse~=0.4",
-    "inflect~=7.0",
+    # "inflect~=7.0",
     "pydantic>=2.0.0,<3.0.0",
 ]
 
